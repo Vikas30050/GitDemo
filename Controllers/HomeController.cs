@@ -22,7 +22,7 @@ namespace GitDemo.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Git Demo contact page.";
+            ViewBag.Message = "Git Demo Contact page with contact address";
 
             return View();
         }
