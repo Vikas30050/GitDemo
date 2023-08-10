@@ -16,6 +16,7 @@ namespace GitDemo.Controllers
 
         public ActionResult About()
         {
+            Session["Username"] = "Vikas";
             ViewBag.Message = " Welcome to Git Project Sync operation .";
 
             return View();
@@ -23,6 +24,7 @@ namespace GitDemo.Controllers
 
         public ActionResult Contact()
         {
+            Session["Username"] = "Vikas";
             ViewBag.Message = "Git Demo Contact page with contact address";
         
             return View();
