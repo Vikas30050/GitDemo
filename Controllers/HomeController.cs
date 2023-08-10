@@ -15,14 +15,14 @@ namespace GitDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Git Demo Project .";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Git Demo  contact page.";
 
             return View();
         }
