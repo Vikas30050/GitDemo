@@ -10,6 +10,7 @@ namespace GitDemo.Controllers
     {
         public ActionResult Index()
         {
+            Session["Username"] = "Vikas";
             return View();
         }
 
@@ -23,7 +24,7 @@ namespace GitDemo.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Git Demo Contact page with contact address";
-
+        
             return View();
         }
     }
